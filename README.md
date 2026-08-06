@@ -8,28 +8,33 @@ A modern and responsive **Personal Portfolio Website** developed using **Django*
 
 ## 🏠 Home
 
-![Home](portfolio/static/images/home-page.png)
+![Home](screenshots/home.png)
+
 ---
 
 ## 👨‍💻 About
 
-![About](portfolio/static/images/about-page.png)
+![About](screenshots/about.png)
 
 ---
 
 ## 💡 Skills
 
-![Skills](portfolio/static/images/skills.png)
+![Skills](screenshots/skills.png)
 
 ---
 
 ## 🚀 Projects
 
-![Projects](portfolio/static/images/projects.png)
+![Projects](screenshots/projects.png)
 
 ---
 
+## 📞 Contact
 
+![Contact](screenshots/contact.png)
+
+---
 
 # ✨ Features
 
@@ -205,8 +210,7 @@ Python Full Stack Developer
 
 🌐 GitHub: https://github.com/Pranavs-hub
 
-💼 LinkedIn: https://www.linkedin.com/in/pranav-patil-8a11b0370/
-
+💼 LinkedIn: https://www.linkedin.com/in/pranav-patil
 ---
 
 # ⭐ Support
