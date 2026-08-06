@@ -1,0 +1,395 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pranav Patil | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                
+                <img src="{% static 'images/Me.jpeg' %}" alt="Profile">
+                <span>Pranav Patil</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- HOME -->
+
+    <section id="home">
+
+        <div class="home-text">
+
+            <h3>Hello, I'm</h3>
+
+            <h1>Pranav Patil</h1>
+
+            <h2>Python Full Stack Developer</h2>
+
+
+            <p>
+                Aspiring Full Stack Developer with a strong foundation in Python, Django, HTML, CSS, JavaScript, and
+                SQL, focused on building modern web applications.
+            </p>
+
+            <div class="buttons">
+
+                <a href="#projects" class="btn">View Projects</a>
+
+                
+                <a href="{% static 'pdf/Pranav_resume.pdf' %}" download class="btn2">Download Resume</a>
+
+            </div>
+
+            <div class="social">
+
+                <a href="https://github.com/Pranavs-hub?tab=repositories"><i class="fab fa-github"></i></a>
+
+                <a href="www.linkedin.com/in/pranav-patil-8a11b0370"><i class="fab fa-linkedin"></i></a>
+
+                <a
+                    href="https://www.instagram.com/pranav__patil3636?igsh=MWxoYXN5N25vaWdmNw==&utm_source=ig_contact_invite"><i
+                        class="fab fa-instagram"></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="home-image">
+
+            <img src="{% static 'images/Me.jpeg' %}" alt="Profile">
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about">
+
+        <h1 class="title">About Me</h1>
+
+        <div class="about-container">
+
+            <div>
+
+               
+                <img src="{% static 'images/Me.jpeg' %}" alt="about">
+
+            </div>
+
+            <div>
+
+                <p>
+                    I am a BCA graduate and a passionate Python Full Stack Developer with
+                    expertise in Python, Django, HTML, CSS, JavaScript, SQL, Git, and GitHub.
+                    I have experience building responsive web applications, including
+                    authentication systems, e-commerce platforms, hotel booking systems,
+                    and portfolio websites. I am committed to writing clean, maintainable,
+                    and efficient code while following modern development practices.
+                    With a strong problem-solving mindset and a passion for continuous
+                    learning, I am eager to contribute to innovative software projects
+                    and build scalable web applications that create real-world impact.
+                </p>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section id="skills">
+
+        <h1 class="title">Skills</h1>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+
+                <i class="fas fa-code"></i>
+
+                <h2>Languages</h2>
+
+                <ul>
+
+                    <li>Python</li>
+
+                    <li>SQL</li>
+
+                    <li>HTML</li>
+
+                    <li>CSS</li>
+
+                    <li>JavaScript</li>
+
+                </ul>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fas fa-chart-line"></i>
+
+                <h2>Libraries</h2>
+
+                <ul>
+
+                    <li>Pandas</li>
+
+                    <li>NumPy</li>
+
+                    <li>Matplotlib</li>
+
+                    <li>Seaborn</li>
+
+                </ul>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fas fa-layer-group"></i>
+
+                <h2>Frameworks</h2>
+
+                <ul>
+
+                    <li>Django</li>
+
+                    <li>Bootstrap</li>
+
+                </ul>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fas fa-tools"></i>
+
+                <h2>Tools</h2>
+
+                <ul>
+
+                    <li>Git</li>
+
+                    <li>GitHub</li>
+
+                    <li>VS Code</li>
+
+                    <li>Excel</li>
+
+                    <li>Power BI</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+
+        <h1 class="title">Projects</h1>
+
+        <div class="projects-container">
+            <a href="https://github.com/Pranavs-hub/simon-says-game.git">
+                <div class="project-card">
+
+                    <h2>Saimon_Says</h2>
+
+                    <p>
+                        Developed an interactive Power BI dashboard using DAX,
+                        Power Query and data visualization with KPI reports,
+                        charts, filters and business insights for analysis.
+                    </p>
+
+                </div>
+            </a>
+
+            <a href="&">
+                <div class="project-card">
+
+                    <h2>E-Commerce></h2>
+
+
+
+                    <p>
+                        Developed a full-stack E-Commerce website using Django,
+                        SQLite, HTML, CSS and JavaScript with authentication,
+                        shopping cart, order management and admin dashboard.
+                    </p>
+
+                </div>
+            </a>
+            <a href="&">
+                <div class="project-card">
+
+                    <h2>BI Dashboard</h2>
+
+                    <p>
+                        Developed an interactive Power BI dashboard using DAX,
+                        Power Query and data visualization with KPI reports,
+                        charts, filters and business insights for analysis.
+                    </p>
+
+                </div>
+            </a>
+
+            <a href="&">
+                <div class="project-card">
+
+                    <h2>Hotel Booking System</h2>
+
+                    <p>
+                        Developed a Hotel Booking Web Application using Django,
+                        SQLite, HTML, CSS and JavaScript with authentication,
+                        room booking, user management and admin dashboard.
+                    </p>
+
+                </div>
+            </a>
+
+            <a href="&">
+                <div class="project-card">
+
+                    <h2>Smart Retail Analytics</h2>
+
+                    <p>
+                        Performed data cleaning, EDA and dashboard creation
+                        using Python, Pandas, NumPy, Matplotlib and Power BI
+                        to generate business insights and visual reports.
+                    </p>
+
+                </div>
+            </a>
+
+
+            <a href="#">
+                <div class="project-card">
+
+                    <h2>Portfolio Website</h2>
+
+                    <p>
+                        Designed and developed a responsive portfolio website
+                        using HTML, CSS and JavaScript with modern UI,
+                        project showcase, animations and contact section.
+                    </p>
+
+                </div>
+            </a>
+
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+
+        <h1 class="title">Contact Me</h1>
+
+        <div class="contact-info">
+
+            <div class="contact-box">
+
+                <a href="">
+                    <p><i class="fas fa-envelope"></i> pranavrgpatil@gmail.com</p>
+                </a>
+
+                <a href="www.linkedin.com/in/pranav-patil-8a11b0370
+
+">
+                    <p><i class="fa-brands fa-linkedin"></i>Linkedin</p>
+                </a>
+
+                <a
+                    href="https://www.instagram.com/pranav__patil3636?igsh=MWxoYXN5N25vaWdmNw==&utm_source=ig_contact_invite">
+                    <p><i class="fa-brands fa-instagram"></i>Instagran</p>
+                </a>
+
+                <a href="">
+                    <p><i class="fas fa-phone"></i> +91 9742380084</p>
+                </a>
+
+                <a href="">
+                    <p><i class="fas fa-location-dot"></i> Belagavi, Karnataka</p>
+                </a>
+
+
+            </div>
+
+            <div class="contact-inbox">
+                <form  method="post">
+                    {% csrf_token %}
+
+                    <label for="Name">name</label>
+                    <input type="text" placeholder="Enter name" id="Name" required name="name">
+
+
+                    <label for="Email">email</label>
+                    <input type="email" placeholder="Enter eamil" name="email" id="Email"><br>
+
+                    <label for="Number">mobile number</label>
+                    <input type="tel" id="Number" name="phone" placeholder="Enter Mobile Number" pattern="[0-9]{10}"
+                        maxlength="10" required>
+
+                    <label for="Message">message</label>
+                    <textarea rows="5" cols="5" name="message" id="Message"></textarea>
+
+                    <button type="submit" class="btn">submit</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>
+
+            © 2026 Pranav Patil | All Rights Reserved
+
+        </p>
+
+    </footer>
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+
+</html>
