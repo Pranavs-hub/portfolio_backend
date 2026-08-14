@@ -1,7 +1,3 @@
-"""
-Django settings for portfolio_backend project.
-"""
-
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
