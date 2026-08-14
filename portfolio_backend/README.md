@@ -48,13 +48,9 @@ A Django-powered backend for my personal portfolio website. It manages portfolio
 
 ---
 
-# 👤 Profile
 
-<p align="center">
-  <img src="portfolio/static/images/Me.jpeg" width="250" alt="Profile">
-</p>
 
----
+
 
 ## 🛠 Tech Stack
 
